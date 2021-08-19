@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Demo Day Project</title>
+</head>
+<body>
+    <div id="navigationBar">
+        <div id="navbar"><a href="index.html" class="dropButton">Home</a></div>
+        <div id="navbar"><a href="justice.html" class="dropButton">Social Justice</a></div>
+        <div id="navbar"><a href="health.html" class="dropButton">Mental Health</a></div>
+        <div class="dropdown">
+            <button class="dropButton">Get Involved</button>
+            <div class="buttonContent">
+              <a href="solutions.html">Social Justice</a>
+              <a href="solutions2.html">Mental Health</a>
+            </div>
+        </div>
+    </div>
+    <div class="health">
+    <h1>Mental Health</h1> <!-- we can change this later/if we have a better one, just a placeholder for now-->
+    <!-- images here we need captions as well -->
+    <img src="https://miro.medium.com/max/1838/1*tSl3LmTZroVBR0dZsJGnHg.jpeg" class="mental_health">
+    <p>With all the injustice that goes on everyday, it is easy to feel overwhelmed and insecure.</p>
+    <p>Below, you can find several articles about mental health and some coping mechanisms. You will also find information about current events dealing with mental health in the world.</p>
+    <p class = "healthButton">Click on the button below to generate links to external websites and articles.</p>
+    <div id ="upload"></div>
+    <button type="button" class="buttons" onclick="onClick()">Click Here</button>
+    </div>
+    <br>
+    <br>
+    <script src = "main.js"></script>
+</body>
+<footer id="footer">
+    <p>All Star Code 2021</p>
+    <p>Ousmane Barrie, Ansh Gandhi, and Nick Ruiz</p>
+</footer>
+</html>
